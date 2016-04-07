@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Dinner_list">
+        <item>Fish and Chips</item>
+        <item>Roast Beef</item>
+        <item>Ham Roast</item>
+        <item>Burgers and Fries</item>
+        <item>Pasta</item>
+        <item>Tuna Casserole</item>
+        <item>Chilli</item>
+        <item>T-Bone Steak</item>
+        <item>Chicken Wings</item>
+    </string-array>
+
+</resources>

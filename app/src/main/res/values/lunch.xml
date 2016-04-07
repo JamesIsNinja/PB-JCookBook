@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Lunch_list">
+        <item>Ham Sandwhich</item>
+        <item>Salad</item>
+        <item>Deli Sandwhich</item>
+        <item>Wraps</item>
+        <item>Avacodo Salad</item>
+        <item>Soup</item>
+        <item>Stew</item>
+        <item>Calzone</item>
+        <item>Crispy Chicken Pita</item>
+    </string-array>
+
+</resources>

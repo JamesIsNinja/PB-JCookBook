@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Breakfast_list">
+        <item>Cereal</item>
+        <item>Porridge</item>
+        <item>Scrambled Eggs</item>
+        <item>French Toast</item>
+        <item>Pancakes</item>
+        <item>Waffles</item>
+        <item>BLT</item>
+        <item>Bagel with Cream Cheese</item>
+        <item>6 cups of Coffee</item>
+    </string-array>
+
+
+</resources>

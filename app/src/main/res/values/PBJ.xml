@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="PBJ_list">
+        <item>PB+J Muffins</item>
+        <item>PB+J Smoothie</item>
+        <item>PB+J Donuts</item>
+        <item>PB+J Overnight Oats</item>
+        <item>PB+J Granola</item>
+        <item>PB+J Bread</item>
+        <item>PB+J Cups</item>
+        <item>PB+J Waffle-Grilled Sandwich</item>
+        <item>PB+JIce Cream Sandwiches</item>
+    </string-array>
+</resources>
