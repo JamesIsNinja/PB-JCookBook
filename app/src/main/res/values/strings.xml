@@ -7,7 +7,7 @@
     <string name="instructions">Instructions:</string>
     <string name="pbj_launchScreen" />
     <string name="Industries_LaunchScreen" />
-    <string name="pb_amp_j_SplashScreen"><![CDATA[PB&J]]></string>
+    <string name="pb_amp_j_SplashScreen"><![CDATA[PB+J]]></string>
     <string name="industries_LauchScreen">Industries</string>
     <string name="itemimage">itemImage</string>
 </resources>

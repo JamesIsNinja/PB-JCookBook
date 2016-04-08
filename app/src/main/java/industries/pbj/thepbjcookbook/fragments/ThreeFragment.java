@@ -50,47 +50,47 @@ public class ThreeFragment extends Fragment {
                     case "Fish and Chips":
                         ingredients = getResources().getString(R.string.FishAndChipsIngredients);
                         instructions = getResources().getString(R.string.FishAndChipsInstructions);
-                        imageId = String.valueOf(R.mipmap.fish_chips);
+                        imageId = String.valueOf(R.drawable.fish_chips);
                         break;
                     case "Roast Beef":
                         ingredients = getResources().getString(R.string.RoastBeefIngredients);
                         instructions = getResources().getString(R.string.RoastBeefInstructions);
-                        imageId = String.valueOf(R.mipmap.roast_beef);
+                        imageId = String.valueOf(R.drawable.roast_beef);
                         break;
                     case "Ham Roast":
                         ingredients = getResources().getString(R.string.HamRoastIngredients);
                         instructions = getResources().getString(R.string.HamRoastInstructions);
-                        imageId = String.valueOf(R.mipmap.ham_roast);
+                        imageId = String.valueOf(R.drawable.ham_roast);
                         break;
                     case "Burger":
                         ingredients = getResources().getString(R.string.HamRoastIngredients);
                         instructions = getResources().getString(R.string.HamRoastInstructions);
-                        imageId = String.valueOf(R.mipmap.burger);
+                        imageId = String.valueOf(R.drawable.burger);
                         break;
                     case "Pasta":
                         ingredients = getResources().getString(R.string.PastaIngredients);
                         instructions = getResources().getString(R.string.PastaInstructions);
-                        imageId = String.valueOf(R.mipmap.pasta);
+                        imageId = String.valueOf(R.drawable.pasta);
                         break;
                     case "Tuna Casserole":
                         ingredients = getResources().getString(R.string.TunaCasseroleIngredients);
                         instructions = getResources().getString(R.string.TunaCasseroleInstructions);
-                        imageId = String.valueOf(R.mipmap.tuna_casserole);
+                        imageId = String.valueOf(R.drawable.tuna_casserole);
                         break;
                     case "Chili":
                         ingredients = getResources().getString(R.string.ChiliIngredients);
                         instructions = getResources().getString(R.string.ChiliInstructions);
-                        imageId = String.valueOf(R.mipmap.chili);
+                        imageId = String.valueOf(R.drawable.chili);
                         break;
                     case "T-Bone Steak":
                         ingredients = getResources().getString(R.string.TBoneSteakIngredients);
                         instructions = getResources().getString(R.string.TBoneSteakInstructions);
-                        imageId = String.valueOf(R.mipmap.tbone_steak);
+                        imageId = String.valueOf(R.drawable.tbone_steak);
                         break;
                     case "Chicken Wings":
                         ingredients = getResources().getString(R.string.ChickenWingsIngredients);
                         instructions = getResources().getString(R.string.ChickenWingsInstructions);
-                        imageId = String.valueOf(R.mipmap.chicken_wings);
+                        imageId = String.valueOf(R.drawable.chicken_wings);
                         break;
                 }
 
