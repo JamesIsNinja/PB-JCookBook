@@ -1,5 +1,6 @@
 package industries.pbj.thepbjcookbook.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -28,18 +29,28 @@ public class TwoFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+        Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_two, container, false);
         myListView2 = (ListView) rootView.findViewById(R.id.myListView2);
         strListView = getResources().getStringArray(R.array.Lunch_list);
         ArrayAdapter<String> objAdapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_list_item_1, strListView);
         myListView2.setAdapter(objAdapter);
+
         myListView2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getContext(),
-                        "Click ListItem Number " + position, Toast.LENGTH_LONG)
-                        .show();
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Object item = (Object) myListView2.getItemAtPosition(position);
+                Intent intent = new Intent(getActivity(), Main2Activity.class);
+
+                String ingredients = "";
+                String instructions = "";
+
+
+                switch(item.toString()) {
+                    case "":
+
+                        break;
+                }
             }
         });
         return rootView;

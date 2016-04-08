@@ -9,8 +9,34 @@
         <item>Waffles</item>
         <item>BLT</item>
         <item>Bagel with Cream Cheese</item>
-        <item>6 cups of Coffee</item>
+        <item>Instant Coffee</item>
     </string-array>
 
+    <string name="CerealIngredients">Cereal\nMilk</string>
+    <string name="CerealInstructions">Get a bowl, get some milk. Add the desired amount of cereal into the bowl, pure the milk into the bowl and let sit for 0 seconds\nEnjoy!!</string>
+
+    <string name="PorridgeIngredients">Water or Milk\nOats</string>
+    <string name="PorridgeInstructions">Bring the water (or water and milk) to a good rolling boil, preferably in a non-stick pan. Slowly pour the oatmeal into the boiling liquid, stirring vigorously with a wooden spoon all the time. Keep stirring until it has returned to the boil again, reduce the heat, cover the pan and simmer very gently for 15 minutes, stirring frequently. Add the salt at this point and simmer and stir for a further 5/10 minutes (time depends on the quality of the oats). It should be a thick but pourable consistency. Serve hot in wooden bowls if you have them.</string>
+
+    <string name="ScrambledEggsIngredients">Eggs\nMilk\nSalt and Pepper\nButter</string>
+    <string name="ScrambledEggsInstructions">BEAT eggs, milk, salt and pepper in bowl until blended.\n\nBEAT butter in large nonstick skillet over medium heat until hot. POUR in egg mixture.\n\nAs eggs begin to set, GENTLY PULL the eggs across the pan with an inverted turner, forming large soft curds. CONTINUE cooking – pulling, lifting and folding eggs – until thickened and no visible liquid egg remains. Do not stir constantly. REMOVE from heat. SERVE immediately.</string>
+
+    <string name="FrenchToastIngredients">Bread\nEggs\nMilk\nSugar\nCinnamon</string>
+    <string name="FrenchToastInstructions">Beat egg, vanilla and cinnamon in shallow dish. Stir in milk.\n\nDip bread in egg mixture, turning to coat both sides evenly.\n\nCook bread slices on lightly greased nonstick griddle or skillet on medium heat until browned on both sides.</string>
+
+    <string name="PancakesIngredients">Flour\nBaking Powder\nSalt\nSugar\nMilk\nEggs\nButter</string>
+    <string name="PancakesInstructions">In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.\n\nHeat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.</string>
+
+    <string name="WafflesIngredients">Flour\nBaking Powder\nMilk\nVegetable Oil\nSugar\nBaing Powder\nSalk</string>
+    <string name="WafflesInstructions">Preheat waffle iron. Beat eggs in large bowl with hand beater until fluffy. Beat in flour, milk, vegetable oil, sugar, baking powder, salt and vanilla, just until smooth.\n\n</string>
+
+    <string name="BLTIngredients">Bread\nMayonnaise\nBetter\nBacon\nTomatoes\nRed Onion\nLettuce</string>
+    <string name="BLTInstructions">Mix basil, mayonnaise and butter in processor until basil is finely chopped and mixture is well blended. Season to taste with salt and pepper.\n\nCook bacon in heavy large skillet over medium-high heat until crisp, about 8 minutes. Transfer to paper towels; drain.\n\nSpread half of mayonnaise mixture over 1 side of 6 bread slices. Top each with 2 tomato slices. Sprinkle tomatoes with salt and pepper. Top tomato slices with avocado, then with bacon strips, onion and lettuce. Spread remaining mayonnaise mixture over remaining 6 bread slices. Place bread slices atop lettuce. Cut sandwiches in half and serve.</string>
+
+    <string name="BagelWithCreamCheeseIngredients">Bagel\nCream Cheese\n</string>
+    <string name="BagelWithCreamCheeseInstructions">Cut your bagel in half.\n\nInsert them into the toaster or under the grill for a minute or so, until golden brown.\n\nSpread some cream cheese on the halves. Enjoys!</string>
+
+    <string name="InstantCoffeeIngredients">Instant Coffee\nWater\nMilk(Optional)\nSugar(Optional)</string>
+    <string name="InstantCoffeeInstructions">Bring water to a boil.\n\nPour the hot water into a coffee mug\n\nAdd 1 - 2 teaspoons and add milk and sugar as desired</string>
 
 </resources>

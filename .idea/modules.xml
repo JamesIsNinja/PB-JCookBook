@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/PB-JCookBook.iml" filepath="$PROJECT_DIR$/PB-JCookBook.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThePBJCookbook.iml" filepath="$PROJECT_DIR$/ThePBJCookbook.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
