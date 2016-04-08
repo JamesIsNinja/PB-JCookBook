@@ -45,12 +45,49 @@ public class ThreeFragment extends Fragment {
                 String ingredients = "";
                 String instructions = "";
 
-
                 switch(item.toString()) {
-                    case "":
-
+                    case "Fish and Chips":
+                        ingredients = getResources().getString(R.string.FishAndChipsIngredients);
+                        instructions = getResources().getString(R.string.FishAndChipsInstructions);
+                        break;
+                    case "Roast Beef":
+                        ingredients = getResources().getString(R.string.RoastBeefIngredients);
+                        instructions = getResources().getString(R.string.RoastBeefInstructions);
+                        break;
+                    case "Ham Roast":
+                        ingredients = getResources().getString(R.string.HamRoastIngredients);
+                        instructions = getResources().getString(R.string.HamRoastInstructions);
+                        break;
+                    case "Burgers and Fries":
+                        ingredients = getResources().getString(R.string.HamRoastIngredients);
+                        instructions = getResources().getString(R.string.HamRoastInstructions);
+                        break;
+                    case "Pasta":
+                        ingredients = getResources().getString(R.string.PastaIngredients);
+                        instructions = getResources().getString(R.string.PastaInstructions);
+                        break;
+                    case "Tuna Casserole":
+                        ingredients = getResources().getString(R.string.TunaCasseroleIngredients);
+                        instructions = getResources().getString(R.string.TunaCasseroleInstructions);
+                        break;
+                    case "Chilli":
+                        ingredients = getResources().getString(R.string.ChilliIngredients);
+                        instructions = getResources().getString(R.string.ChilliInstructions);
+                        break;
+                    case "T-Bone Steak":
+                        ingredients = getResources().getString(R.string.TBoneSteakIngredients);
+                        instructions = getResources().getString(R.string.TBoneSteakInstructions);
+                        break;
+                    case "Chicken Wings":
+                        ingredients = getResources().getString(R.string.ChickenWingsIngredients);
+                        instructions = getResources().getString(R.string.ChickenWingsInstructions);
                         break;
                 }
+
+                intent.putExtra("ItemName", item.toString());
+                intent.putExtra("ItemIngredients", ingredients);
+                intent.putExtra("ItemInstructions", instructions);
+                startActivity(intent);
             }
         });
         return rootView;

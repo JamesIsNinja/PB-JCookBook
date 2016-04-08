@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.TextClock;
 import android.widget.TextView;
 import android.widget.VideoView;
@@ -17,6 +18,7 @@ public class Main2Activity extends AppCompatActivity {
     private Toolbar toolbar;
     private TextView ingredientsText;
     private TextView instructionsText;
+    private ImageView itemImage;
     public VideoView video;
 
     @Override
@@ -29,9 +31,15 @@ public class Main2Activity extends AppCompatActivity {
         ingredientsText = (TextView) findViewById(R.id.ingredientsText);
         instructionsText = (TextView) findViewById(R.id.instructionsText);
 
+        itemImage = (ImageView) findViewById(R.id.itemImageView);
+
         String keyName = getIntent().getStringExtra("ItemName");
         String keyIngredients = getIntent().getStringExtra("ItemIngredients");
         String keyInstructions = getIntent().getStringExtra("ItemInstructions");
+
+        String keyImage = getIntent().getStringExtra("ItemImage");
+
+        itemImage.setImageResource(Integer.parseInt(keyImage));
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(keyName);

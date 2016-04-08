@@ -6,4 +6,6 @@
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#000000</color>
     <color name="colorAccent">#c8e8ff</color>
+    <color name="pbj_j_color">#3f0c07</color>
+    <color name="pbj_pb_color">#fbad41</color>
 </resources>

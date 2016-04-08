@@ -27,7 +27,7 @@
     <string name="PancakesIngredients">Flour\nBaking Powder\nSalt\nSugar\nMilk\nEggs\nButter</string>
     <string name="PancakesInstructions">In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.\n\nHeat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.</string>
 
-    <string name="WafflesIngredients">Flour\nBaking Powder\nMilk\nVegetable Oil\nSugar\nBaing Powder\nSalk</string>
+    <string name="WafflesIngredients">Flour\nBaking Powder\nMilk\nVegetable Oil\nSugar\nBaing Powder\nSalt</string>
     <string name="WafflesInstructions">Preheat waffle iron. Beat eggs in large bowl with hand beater until fluffy. Beat in flour, milk, vegetable oil, sugar, baking powder, salt and vanilla, just until smooth.\n\n</string>
 
     <string name="BLTIngredients">Bread\nMayonnaise\nBetter\nBacon\nTomatoes\nRed Onion\nLettuce</string>

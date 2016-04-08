@@ -47,10 +47,48 @@ public class TwoFragment extends Fragment {
 
 
                 switch(item.toString()) {
-                    case "":
-
+                    case "Ham Sandwich":
+                        ingredients = getResources().getString(R.string.HamSandwichIngredients);
+                        instructions = getResources().getString(R.string.HamSandwichInstructions);
+                        break;
+                    case "Salad":
+                        ingredients = getResources().getString(R.string.SaladIngredients);
+                        instructions = getResources().getString(R.string.SaladInstructions);
+                        break;
+                    case "Deli Sandwich":
+                        ingredients = getResources().getString(R.string.DeliSandwichIngredients);
+                        instructions = getResources().getString(R.string.DeliSandwichIngredients);
+                        break;
+                    case "Wraps":
+                        ingredients = getResources().getString(R.string.WrapsIngredients);;
+                        instructions = getResources().getString(R.string.WafflesInstructions);
+                        break;
+                    case "Avacodo Salad":
+                        ingredients = getResources().getString(R.string.AvacodoSaladIngredients);
+                        instructions = getResources().getString(R.string.AvacodoSaladInstructions);
+                        break;
+                    case "Soup":
+                        ingredients = getResources().getString(R.string.SoupIngredients);
+                        instructions = getResources().getString(R.string.SoupInstructions);
+                        break;
+                    case "Stew":
+                        ingredients = getResources().getString(R.string.StewIngredients);
+                        instructions = getResources().getString(R.string.StewInstructions);
+                        break;
+                    case "Calzone":
+                        ingredients = getResources().getString(R.string.CalzoneIngredients);
+                        instructions = getResources().getString(R.string.CalzoneInstructions);
+                        break;
+                    case "Crispy Chicken Wrap":
+                        ingredients = getResources().getString(R.string.CrispyChickenWrapIngredients);
+                        instructions = getResources().getString(R.string.CrispyChickenWrapInstructions);
                         break;
                 }
+
+                intent.putExtra("ItemName", item.toString());
+                intent.putExtra("ItemIngredients", ingredients);
+                intent.putExtra("ItemInstructions", instructions);
+                startActivity(intent);
             }
         });
         return rootView;

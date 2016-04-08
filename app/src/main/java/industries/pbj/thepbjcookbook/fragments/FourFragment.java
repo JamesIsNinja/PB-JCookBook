@@ -46,10 +46,48 @@ public class FourFragment extends Fragment {
 
 
                 switch(item.toString()) {
-                    case "":
-
+                    case "PB+J Muffins":
+                        ingredients = getResources().getString(R.string.PBJMuffinsIngredients);
+                        instructions = getResources().getString(R.string.PBJMuffinsInstructions);
+                        break;
+                    case "PB+J Smoothie":
+                        ingredients = getResources().getString(R.string.PBJSmoothieIngredients);
+                        instructions = getResources().getString(R.string.PBJSmoothieInstructions);
+                        break;
+                    case "PB+J Donuts":
+                        ingredients = getResources().getString(R.string.PBJDonutsIngredients);
+                        instructions = getResources().getString(R.string.PBJDonutsInstructions);
+                        break;
+                    case "PB+J Overnight Oats":
+                        ingredients = getResources().getString(R.string.PBJOvernightOatsIngredients);
+                        instructions = getResources().getString(R.string.PBJOvernightOatsInstructions);
+                        break;
+                    case "PB+J Granola":
+                        ingredients = getResources().getString(R.string.PBJGranolaIngredients);
+                        instructions = getResources().getString(R.string.PBJGranolaInstructions);
+                        break;
+                    case "PB+J Bread":
+                        ingredients = getResources().getString(R.string.PBJBreadIngredients);
+                        instructions = getResources().getString(R.string.PBJBreadInstructions);
+                        break;
+                    case "PB+J Cups":
+                        ingredients = getResources().getString(R.string.PBJCupsIngredients);
+                        instructions = getResources().getString(R.string.PBJCupsInstructions);
+                        break;
+                    case "PB+J Waffle-Grilled Sandwich":
+                        ingredients = getResources().getString(R.string.PBJWaffleGrilledSandwichIngredients);
+                        instructions = getResources().getString(R.string.PBJWaffleGrilledSandwichInstructions);
+                        break;
+                    case "PB+J Ice Cream Sandwiches":
+                        ingredients = getResources().getString(R.string.PBJIceCreamSandwichesIngredients);
+                        instructions = getResources().getString(R.string.PBJIceCreamSandwichesInstructions);
                         break;
                 }
+
+                intent.putExtra("ItemName", item.toString());
+                intent.putExtra("ItemIngredients", ingredients);
+                intent.putExtra("ItemInstructions", instructions);
+                startActivity(intent);
             }
         });
         return rootView;

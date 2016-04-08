@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="Lunch_list">
-        <item>Ham Sandwhich</item>
+        <item>Ham Sandwich</item>
         <item>Salad</item>
         <item>Deli Sandwhich</item>
         <item>Wraps</item>
@@ -9,7 +9,40 @@
         <item>Soup</item>
         <item>Stew</item>
         <item>Calzone</item>
-        <item>Crispy Chicken Pita</item>
+        <item>Crispy Chicken Wrap</item>
     </string-array>
+
+
+    <string name="HamSandwichIngredients">Ham\nMayonnaise\nLettuce\nTomato\nDill Pickles\nCheddar Cheese\nBread</string>
+    <string name="HamSandwichInstructions">Spread homemade mayonnaise on a thick slice of crusty white or rye bread. Top with Bibb lettuce, sliced tomato, thick slices of leftover ham, a few dill pickle slices and sliced cheddar cheese. \n*Optional* Spread whole-grain mustard on another slice of bread, then close the sandwich.</string>
+
+    <string name="SaladIngredients">Romaine Lettuce\nCroutons\nGrated Parmesan Cheese\nCaesar Dressing</string>
+    <string name="SaladInstructions">Tear lettuce into bite-size pieces to make about 20 cups (5 L); place in large bowl. Add dressing, croutons and cheese; toss to combine. Add caesar dressing and toss.</string>
+
+    <string name="DeliSandwichIngredients"></string>
+    <string name="DeliSandwichInstructions"></string>
+
+    <string name="WrapsIngredients"></string>
+    <string name="WrapsInstructions"></string>
+
+    <string name="AvacodoSaladIngredients"></string>
+    <string name="AvacodoSaladInstructions"></string>
+
+    <string name="SoupIngredients"></string>
+    <string name="SoupInstructions"></string>
+
+    <string name="StewIngredients"></string>
+    <string name="StewInstructions"></string>
+
+    <string name="CalzoneIngredients"></string>
+    <string name="CalzoneInstructions"></string>
+
+    <string name="CrispyChickenWrapIngredients"></string>
+    <string name="CrispyChickenWrapInstructions"></string>
+
+
+
+
+
 
 </resources>

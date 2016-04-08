@@ -10,6 +10,35 @@
         <item>PB+J Bread</item>
         <item>PB+J Cups</item>
         <item>PB+J Waffle-Grilled Sandwich</item>
-        <item>PB+JIce Cream Sandwiches</item>
+        <item>PB+J Ice Cream Sandwiches</item>
     </string-array>
+
+    <string name="PBJMuffinsIngredients"></string>
+    <string name="PBJMuffinsInstructions"></string>
+
+    <string name="PBJSmoothieIngredients"></string>
+    <string name="PBJSmoothieInstructions"></string>
+
+    <string name="PBJDonutsIngredients"></string>
+    <string name="PBJDonutsInstructions"></string>
+
+    <string name="PBJOvernightOatsIngredients"></string>
+    <string name="PBJOvernightOatsInstructions"></string>
+
+    <string name="PBJGranolaIngredients"></string>
+    <string name="PBJGranolaInstructions"></string>
+
+    <string name="PBJBreadIngredients"></string>
+    <string name="PBJBreadInstructions"></string>
+
+    <string name="PBJCupsIngredients"></string>
+    <string name="PBJCupsInstructions"></string>
+
+    <string name="PBJWaffleGrilledSandwichIngredients"></string>
+    <string name="PBJWaffleGrilledSandwichInstructions"></string>
+
+    <string name="PBJIceCreamSandwichesIngredients"></string>
+    <string name="PBJIceCreamSandwichesInstructions"></string>
+
+
 </resources>

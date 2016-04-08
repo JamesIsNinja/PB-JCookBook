@@ -12,4 +12,32 @@
         <item>Chicken Wings</item>
     </string-array>
 
+
+    <string name="FishAndChipsIngredients"></string>
+    <string name="FishAndChipsInstructions"></string>
+
+    <string name="RoastBeefIngredients"></string>
+    <string name="RoastBeefInstructions"></string>
+
+    <string name="HamRoastIngredients"></string>
+    <string name="HamRoastInstructions"></string>
+
+    <string name="BurgersAndFriesIngredients"></string>
+    <string name="BurgersAndFriesInstructions"></string>
+
+    <string name="PastaIngredients"></string>
+    <string name="PastaInstructions"></string>
+
+    <string name="TunaCasseroleIngredients"></string>
+    <string name="TunaCasseroleInstructions"></string>
+
+    <string name="ChilliIngredients"></string>
+    <string name="ChilliInstructions"></string>
+
+    <string name="TBoneSteakIngredients"></string>
+    <string name="TBoneSteakInstructions"></string>
+
+    <string name="ChickenWingsIngredients"></string>
+    <string name="ChickenWingsInstructions"></string>
+
 </resources>

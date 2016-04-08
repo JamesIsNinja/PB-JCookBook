@@ -33,22 +33,33 @@ public class OneFragment extends Fragment {
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
         Bundle savedInstanceState) {
+            //Make a view for the fragment_one list view
             View rootView = inflater.inflate(R.layout.fragment_one, container, false);
+
+            //Get the list view from fragment_one.xml
             myListView = (ListView) rootView.findViewById(R.id.myListView);
+
+            //Make a list list view from the BreakFast array from breakfast.xml
             strListView = getResources().getStringArray(R.array.Breakfast_list);
+
+            //Fill the adapter with strListview
             ArrayAdapter<String> objAdapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_list_item_1, strListView);
+
+            //Set myListView to strListView
             myListView.setAdapter(objAdapter);
 
+            //On Click listener for when an list view item it press
             myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     Object item = (Object) myListView.getItemAtPosition(position);
+                    String itemName = item.toString();
                     Intent intent = new Intent(getActivity(), Main2Activity.class);
 
 
                     String ingredients = "";
                     String instructions = "";
-                    switch(item.toString()){
+                    switch(itemName){
                         case "Cereal":
                             ingredients = getResources().getString(R.string.CerealIngredients);
                             instructions = getResources().getString(R.string.CerealInstructions);
@@ -90,10 +101,10 @@ public class OneFragment extends Fragment {
                     intent.putExtra("ItemName", item.toString());
                     intent.putExtra("ItemIngredients", ingredients);
                     intent.putExtra("ItemInstructions", instructions);
+                    intent.putExtra("ItemImage", String.valueOf(R.mipmap.cereal));
+
                     startActivity(intent);
             }
-
-
         });
         return rootView;
     }
