@@ -33,14 +33,13 @@
             android:weightSum="1">
 
             <ImageView
-                android:layout_width="136dp"
-                android:layout_height="211dp"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
                 android:id="@+id/itemImageView"
                 android:src="@mipmap/ic_launcher"
                 android:textAlignment="center"
                 android:layout_gravity="top|left|bottom|center|right"
-                android:contentDescription="@string/itemimage"
-                android:layout_weight=".5" />
+                android:contentDescription="@string/itemimage" />
         </LinearLayout>
 
         <LinearLayout

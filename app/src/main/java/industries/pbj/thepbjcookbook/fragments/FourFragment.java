@@ -43,50 +43,61 @@ public class FourFragment extends Fragment {
 
                 String ingredients = "";
                 String instructions = "";
+                String imageId = "";
 
 
                 switch(item.toString()) {
                     case "PB+J Muffins":
                         ingredients = getResources().getString(R.string.PBJMuffinsIngredients);
                         instructions = getResources().getString(R.string.PBJMuffinsInstructions);
+                        imageId = String.valueOf(R.mipmap.pbj_muffins);
                         break;
                     case "PB+J Smoothie":
                         ingredients = getResources().getString(R.string.PBJSmoothieIngredients);
                         instructions = getResources().getString(R.string.PBJSmoothieInstructions);
+                        imageId = String.valueOf(R.mipmap.pbj_smoothie);
                         break;
                     case "PB+J Donuts":
                         ingredients = getResources().getString(R.string.PBJDonutsIngredients);
                         instructions = getResources().getString(R.string.PBJDonutsInstructions);
+                        imageId = String.valueOf(R.mipmap.pbj_donuts);
                         break;
                     case "PB+J Overnight Oats":
                         ingredients = getResources().getString(R.string.PBJOvernightOatsIngredients);
                         instructions = getResources().getString(R.string.PBJOvernightOatsInstructions);
+                        imageId = String.valueOf(R.mipmap.pbj_overnight_oats);
                         break;
                     case "PB+J Granola":
                         ingredients = getResources().getString(R.string.PBJGranolaIngredients);
                         instructions = getResources().getString(R.string.PBJGranolaInstructions);
+                        imageId = String.valueOf(R.mipmap.pbj_granola);
                         break;
-                    case "PB+J Bread":
-                        ingredients = getResources().getString(R.string.PBJBreadIngredients);
-                        instructions = getResources().getString(R.string.PBJBreadInstructions);
+                    case "PB+J Sandwich":
+                        ingredients = getResources().getString(R.string.PBJSandwichIngredients);
+                        instructions = getResources().getString(R.string.PBJSandwichInstructions);
+                        imageId = String.valueOf(R.mipmap.pbj_sandwich);
                         break;
                     case "PB+J Cups":
                         ingredients = getResources().getString(R.string.PBJCupsIngredients);
                         instructions = getResources().getString(R.string.PBJCupsInstructions);
+                        imageId = String.valueOf(R.mipmap.cereal);
                         break;
                     case "PB+J Waffle-Grilled Sandwich":
                         ingredients = getResources().getString(R.string.PBJWaffleGrilledSandwichIngredients);
                         instructions = getResources().getString(R.string.PBJWaffleGrilledSandwichInstructions);
+                        imageId = String.valueOf(R.mipmap.pbj_waffle_grilled_sandwich);
                         break;
                     case "PB+J Ice Cream Sandwiches":
                         ingredients = getResources().getString(R.string.PBJIceCreamSandwichesIngredients);
                         instructions = getResources().getString(R.string.PBJIceCreamSandwichesInstructions);
+                        imageId = String.valueOf(R.mipmap.pbj_ice_cream_sandwiches);
                         break;
                 }
 
                 intent.putExtra("ItemName", item.toString());
                 intent.putExtra("ItemIngredients", ingredients);
                 intent.putExtra("ItemInstructions", instructions);
+                intent.putExtra("ItemImage", imageId);
                 startActivity(intent);
             }
         });

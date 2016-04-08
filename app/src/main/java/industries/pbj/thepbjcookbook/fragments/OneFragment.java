@@ -59,49 +59,60 @@ public class OneFragment extends Fragment {
 
                     String ingredients = "";
                     String instructions = "";
+                    String imageId = "";
+
                     switch(itemName){
                         case "Cereal":
                             ingredients = getResources().getString(R.string.CerealIngredients);
                             instructions = getResources().getString(R.string.CerealInstructions);
+                            imageId = String.valueOf(R.mipmap.cereal);
                         break;
                         case "Porridge":
                             ingredients = getResources().getString(R.string.PorridgeIngredients);
                             instructions = getResources().getString(R.string.PorridgeInstructions);
+                            imageId = String.valueOf(R.mipmap.porridge);
                         break;
                         case "Scrambled Eggs":
                             ingredients = getResources().getString(R.string.ScrambledEggsIngredients);
                             instructions = getResources().getString(R.string.ScrambledEggsInstructions);
+                            imageId = String.valueOf(R.mipmap.scrambled_eggs);
                             break;
                         case "French Toast":
                             ingredients = getResources().getString(R.string.FrenchToastIngredients);
                             instructions = getResources().getString(R.string.FrenchToastInstructions);
+                            imageId = String.valueOf(R.mipmap.french_toast);
                             break;
                         case "Pancakes":
                             ingredients = getResources().getString(R.string.PancakesIngredients);
                             instructions = getResources().getString(R.string.PancakesInstructions);
+                            imageId = String.valueOf(R.mipmap.pancakes);
                             break;
                         case "Waffles":
                             ingredients = getResources().getString(R.string.WafflesIngredients);
                             instructions = getResources().getString(R.string.WafflesInstructions);
+                            imageId = String.valueOf(R.mipmap.waffles);
                             break;
                         case "BLT":
                             ingredients = getResources().getString(R.string.BLTIngredients);
                             instructions = getResources().getString(R.string.BLTInstructions);
+                            imageId = String.valueOf(R.mipmap.blt);
                             break;
                         case "Bagel with Cream Cheese":
                             ingredients = getResources().getString(R.string.BagelWithCreamCheeseIngredients);
                             instructions = getResources().getString(R.string.BagelWithCreamCheeseInstructions);
+                            imageId = String.valueOf(R.mipmap.bagel);
                             break;
                         case "Instant Coffee":
                             ingredients = getResources().getString(R.string.InstantCoffeeIngredients);
                             instructions = getResources().getString(R.string.InstantCoffeeInstructions);
+                            imageId = String.valueOf(R.mipmap.coffee);
                             break;
                     }
 
                     intent.putExtra("ItemName", item.toString());
                     intent.putExtra("ItemIngredients", ingredients);
                     intent.putExtra("ItemInstructions", instructions);
-                    intent.putExtra("ItemImage", String.valueOf(R.mipmap.cereal));
+                    intent.putExtra("ItemImage", imageId);
 
                     startActivity(intent);
             }

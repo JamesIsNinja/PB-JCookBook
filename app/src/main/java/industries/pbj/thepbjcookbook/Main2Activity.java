@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextClock;
@@ -28,6 +29,8 @@ public class Main2Activity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        String keyImage = "";
+
         ingredientsText = (TextView) findViewById(R.id.ingredientsText);
         instructionsText = (TextView) findViewById(R.id.instructionsText);
 
@@ -37,9 +40,13 @@ public class Main2Activity extends AppCompatActivity {
         String keyIngredients = getIntent().getStringExtra("ItemIngredients");
         String keyInstructions = getIntent().getStringExtra("ItemInstructions");
 
-        String keyImage = getIntent().getStringExtra("ItemImage");
-
-        itemImage.setImageResource(Integer.parseInt(keyImage));
+        try{
+            keyImage = getIntent().getStringExtra("ItemImage");
+            itemImage.setImageResource(Integer.parseInt(keyImage));
+        }
+        catch (Exception e){
+            Log.d(e.getLocalizedMessage(),e.getLocalizedMessage());
+        }
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(keyName);
