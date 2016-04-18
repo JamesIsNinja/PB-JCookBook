@@ -15,37 +15,37 @@
 
     <string name="FishAndChipsIngredients">Vegetable Oil\nRed Snapper Fillets\nEgg\nBread Crumbs</string>
     <string name="FishAndChipsInstructions">In a large heavy skillet, heat oil to 375 degrees F (190 degrees C).\n\nDip fillets into beaten egg and dredge in bread crumbs.\n\nGently slide fish into hot oil and fry until golden brown. Drain briefly on paper towels. Serve hot.</string>
-    <string name="FishAndChipsURL">https://www.youtube.com/watch?v=yohSEYq9tSo</string>
+    <string name="FishAndChipsURL">yohSEYq9tSo</string>
 
     <string name="RoastBeefIngredients">Vegetable Oil\nBeef Chuck\nSalt\nPepper\nCarrots\nCelery\nOnions\nButter\nRosemary</string>
     <string name="RoastBeefInstructions">Preheat the oven to 275 degrees F (135 degrees C).\n\nPour vegetable oil into a large oven-safe pot over medium-high heat. Season the chuck roast with salt and black pepper. Brown the meat on both sides in the hot oil, and transfer to a plate.\n\nStir carrots, celery, and onion into the pot, and cook and stir until vegetables start to release their juices, about 3 minutes; loosen any brown flavor bits on the bottom of the pot. Add butter, and cook until the onions are translucent, about 5 minutes. Then sprinkle in rosemary, stir the vegetables, and return the roast to the pot. Cover the pot with a lid.\n\nRoast in the preheated oven until the chuck roast is tender, about 2 1/2 to 3 hours. Season vegetables with additional salt and black pepper, if desired.</string>
-    <string name="RoastBeefURL">https://www.youtube.com/watch?v=VP0Lagoz58c</string>
+    <string name="RoastBeefURL">VP0Lagoz58c</string>
 
     <string name="HamRoastIngredients">Bone-in Ham\nMustard\nSyrup\nBrown Sugar\nOnion Powder</string>
     <string name="HamRoastInstructions">Preheat the oven to 325 degrees F (165 degrees C). Rinse the ham and pat dry with paper towels.\n\n\nPlace the ham in a shallow roasting pan. In a small bowl, mix together the mustard, maple syrup, brown sugar and onion powder. Coat the ham entirely with the glaze using a spoon or brush.\n\nRoast the ham uncovered for 2 hours in the preheated oven, or until heated through. Let it rest for about 15 minutes before carving to keep it from drying out.</string>
-    <string name="HamRoastURL">https://www.youtube.com/watch?v=3LICF-NL9yU</string>
+    <string name="HamRoastURL">3LICF-NL9yU</string>
 
     <string name="BurgerIngredients">Burgers\nCheese\nBuns\nPineapples\nLettuce\nRed Onions</string>
     <string name="BurgerInstructions">Cook frozen burgers according to package directions, until internal temperature reaches 165 degrees F as measured with a meat thermometer. Place 1 slice of cheese over each burger. Grill until cheese is melted. Remove burgers from grill; keep warm. Grill pineapple slices 1 to 2 minutes per side or until there are grill marks on each side. Remove from grill.\n\nSpread Sweet Chili Mayo evenly over cut surfaces of each bun. Layer bottom half of bun with lettuce, cooked burger, onions and pineapple. Cover with top of bun and serve.</string>
-    <string name="BurgerURL">https://www.youtube.com/watch?v=g6ZupQIaKsA</string>
+    <string name="BurgerURL">g6ZupQIaKsA</string>
 
     <string name="PastaIngredients">Egg\nSalt\nFlour\nWater</string>
     <string name="PastaInstructions">In a medium sized bowl, combine flour and salt. Make a well in the flour, add the slightly beaten egg, and mix. Mixture should form a stiff dough. If needed, stir in 1 to 2 tablespoons water.\n\nOn a lightly floured surface, knead dough for about 3 to 4 minutes. With a pasta machine or by hand roll dough out to desired thinness. Use machine or knife to cut into strips of desired width.</string>
-    <string name="PastaURL">https://www.youtube.com/watch?v=9FAPy8NVDgY</string>
+    <string name="PastaURL">9FAPy8NVDgY</string>
 
     <string name="TunaCasseroleIngredients">Chopped Onions\nVegetable Oil\nTomato Soup\nChili Powder\nSalt\nWorcestershire Sauce\nEgg Nooddles\nCheese\nCan Tuna</string>
     <string name="TunaCasseroleInstructions">Cook noodles in a pot of boiling water until done. Drain.\n\nIn a large skillet, saute onion in oil. Add undiluted soup, chili powder, salt, and Worcestershire sauce. Simmer 5 minutes. Mix in noodles, 1 cup cheese, and tuna. Spoon into a greased 1 quart casserole dish.\n\nBake at 350 degrees F (175 degrees C) for 30 minutes. While still hot, sprinkle with remaining 1/4 cup cheese.</string>
-    <string name="TunaCasseroleURL">https://www.youtube.com/watch?v=NlhiuMOJwnI</string>
+    <string name="TunaCasseroleURL">NlhiuMOJwnI</string>
 
     <string name="ChiliIngredients">Dried Ancho Chiles\nWater\nWine Vinegar\nSausage\nGround Beef\nOnion\nCelery\nCarrots\nCloves Garlic\nSalt\nPepper\nTomato Paste\nDiced Tomatoes\nWorcestershire Sauce\nChili Powder\nGround Cumin\nParsley\nHoney\nKidney Beans\nPinto Beans</string>
     <string name="ChiliInstructions">In a small bowl, soak chiles in water and vinegar for 30 minutes. After soaking, puree in a blender or food processor until very smooth, about 5 minutes; set aside.\n\nPlace sausage and ground beef in a large, deep skillet. Cook over medium high heat until evenly brown. Remove meat from pan, and set aside. In a large pot, Heat 3 to 4 tablespoons of the meat drippings over medium heat. Saute white onion, red onion, sweet onion, celery, carrots and garlic until onions are soft and translucent. Season with salt and black pepper. Stir in tomato paste, and allow to caramelize. Pour in wine to deglaze the pot, scraping up any bits stuck to the bottom.\n\nStir in cooked meat, tomatoes, Worcestershire sauce and hot pepper sauce. Season with chili powder, cumin and parsley. Bring to a boil, then stir in blended chile mixture and honey. Carefully mix in kidney beans pinto beans without breaking them. Cover, and simmer for 3 hours. Stir and scrape the bottom every hour or so.</string>
-    <string name="ChiliURL">https://www.youtube.com/watch?v=lKXPAPgi5yc</string>
+    <string name="ChiliURL">lKXPAPgi5yc</string>
 
     <string name="TBoneSteakIngredients">Salt\nPaprika\nPepper\nOnion Powder\nGarlic Powder\nCayenne Pepper\nCoriander\nTurmeric\nT-Bone Steaks</string>
     <string name="TBoneSteakInstructions">Preheat an outdoor grill for high heat, and lightly oil the grate. Stir the salt, paprika, black pepper, onion powder, garlic powder, cayenne pepper, coriander, and turmeric together in a small bowl; set aside.\n\nRub the steaks on all sides with the seasoning mixture. Cook on the preheated grill to your desired degree of doneness, 3 to 3 1/2 minutes per side for medium-rare. An instant-read thermometer inserted into the center should read 130 degrees F (54 degrees C).</string>
-    <string name="TBoneSteakURL">https://www.youtube.com/watch?v=5f8Kc34D5Q0</string>
+    <string name="TBoneSteakURL">5f8Kc34D5Q0</string>
 
     <string name="ChickenWingsIngredients">Water\nSoy Sauce\nSugar\nPineapple\nVegetable Oil\nFresh Garlic\nFresh Ginger\nChicken Wings</string>
     <string name="ChickenWingsInstructions">Whisk together the water, soy sauce, sugar, pineapple juice, vegetable oil, garlic, and ginger in a large glass or ceramic bowl until the sugar has dissolved. Add the chicken wings, coat with the marinade, cover the bowl with plastic wrap, and marinate in the refrigerator for at least 1 hour.\n\nPreheat an oven to 350 degrees F (175 degrees C). Grease baking dishes, and set aside.\n\nRemove the chicken from the marinade, and shake off excess and place the chicken wings into the prepared baking dishes. Discard the remaining marinade. Bake the wings in the preheated oven until the chicken is cooked through and the glaze is evenly browned, about 1 hour.</string>
-    <string name="ChickenWingsURL">https://www.youtube.com/watch?v=N6J2ZQYic_g</string>
+    <string name="ChickenWingsURL">N6J2ZQYic_g</string>
 </resources>

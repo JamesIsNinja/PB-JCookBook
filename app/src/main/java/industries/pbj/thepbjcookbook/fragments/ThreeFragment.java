@@ -98,6 +98,7 @@ public class ThreeFragment extends Fragment {
                 intent.putExtra("ItemIngredients", ingredients);
                 intent.putExtra("ItemInstructions", instructions);
                 intent.putExtra("ItemImage", imageId);
+                intent.putExtra("ItemURL", URL);
                 startActivity(intent);
             }
         });

@@ -65,7 +65,7 @@ public class Main2Activity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void youtubeClicked() {
+    public void youtubeClicked(View view) {
         String keyURL = getIntent().getStringExtra("ItemURL");
         try {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:" + keyURL));

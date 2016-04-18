@@ -45,31 +45,37 @@ public class TwoFragment extends Fragment {
                 String ingredients = "";
                 String instructions = "";
                 String imageId = "";
+                String URL = "";
 
                 switch(item.toString()) {
                     case "Ham Sandwich":
                         ingredients = getResources().getString(R.string.HamSandwichIngredients);
                         instructions = getResources().getString(R.string.HamSandwichInstructions);
+                        URL = getResources().getString(R.string.HamSandwichURL);
                         imageId = String.valueOf(R.drawable.ham_sandwich);
                         break;
                     case "Salad":
                         ingredients = getResources().getString(R.string.SaladIngredients);
                         instructions = getResources().getString(R.string.SaladInstructions);
+                        URL = getResources().getString(R.string.SaladURL);
                         imageId = String.valueOf(R.drawable.salad);
                         break;
                     case "Deli Sandwich":
                         ingredients = getResources().getString(R.string.DeliSandwichIngredients);
                         instructions = getResources().getString(R.string.DeliSandwichInstructions);
+                        URL = getResources().getString(R.string.DeliSandwichURL);
                         imageId = String.valueOf(R.drawable.deli_sandwich);
                         break;
                     case "Roast Beef Wrap":
                         ingredients = getResources().getString(R.string.RoastBeefWrapsIngredients);
                         instructions = getResources().getString(R.string.RoastBeefWrapsInstructions);
+                        URL = getResources().getString(R.string.RoastBeefWrapsURL);
                         imageId = String.valueOf(R.drawable.roast_beef_wrap);
                         break;
                     case "Avocado Salad":
                         ingredients = getResources().getString(R.string.AvocadoSaladIngredients);
                         instructions = getResources().getString(R.string.AvocadoSaladInstructions);
+                        URL = getResources().getString(R.string.AvocadoSaladURL);
                         imageId = String.valueOf(R.drawable.avocado_salad);
                         break;
                     case "Chicken Soup":
@@ -98,6 +104,7 @@ public class TwoFragment extends Fragment {
                 intent.putExtra("ItemIngredients", ingredients);
                 intent.putExtra("ItemInstructions", instructions);
                 intent.putExtra("ItemImage", imageId);
+                intent.putExtra("ItemURL", URL);
                 startActivity(intent);
             }
         });
