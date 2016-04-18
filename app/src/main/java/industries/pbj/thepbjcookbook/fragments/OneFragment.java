@@ -60,51 +60,61 @@ public class OneFragment extends Fragment {
                     String ingredients = "";
                     String instructions = "";
                     String imageId = "";
+                    String URL = "";
 
                     switch(itemName){
                         case "Cereal":
                             ingredients = getResources().getString(R.string.CerealIngredients);
                             instructions = getResources().getString(R.string.CerealInstructions);
+                            URL = getResources().getString(R.string.CerealURL);
                             imageId = String.valueOf(R.drawable.cereal);
                         break;
                         case "Porridge":
                             ingredients = getResources().getString(R.string.PorridgeIngredients);
                             instructions = getResources().getString(R.string.PorridgeInstructions);
+                            URL = getResources().getString(R.string.PorridgeURL);
                             imageId = String.valueOf(R.drawable.porridge);
                         break;
                         case "Scrambled Eggs":
                             ingredients = getResources().getString(R.string.ScrambledEggsIngredients);
                             instructions = getResources().getString(R.string.ScrambledEggsInstructions);
+                            URL = getResources().getString(R.string.ScrambledEggsURL);
                             imageId = String.valueOf(R.drawable.scrambled_eggs);
                             break;
                         case "French Toast":
                             ingredients = getResources().getString(R.string.FrenchToastIngredients);
                             instructions = getResources().getString(R.string.FrenchToastInstructions);
+                            URL = getResources().getString(R.string.FrenchToastURL);
                             imageId = String.valueOf(R.drawable.french_toast);
                             break;
                         case "Pancakes":
                             ingredients = getResources().getString(R.string.PancakesIngredients);
                             instructions = getResources().getString(R.string.PancakesInstructions);
+                            URL = getResources().getString(R.string.PancakesURL);
                             imageId = String.valueOf(R.drawable.pancakes);
                             break;
                         case "Waffles":
                             ingredients = getResources().getString(R.string.WafflesIngredients);
                             instructions = getResources().getString(R.string.WafflesInstructions);
+                            URL = getResources().getString(R.string.WafflesURL);
                             imageId = String.valueOf(R.drawable.waffles);
                             break;
                         case "BLT":
                             ingredients = getResources().getString(R.string.BLTIngredients);
                             instructions = getResources().getString(R.string.BLTInstructions);
+                            URL = getResources().getString(R.string.BLTURL);
                             imageId = String.valueOf(R.drawable.blt);
                             break;
                         case "Bagel with Cream Cheese":
                             ingredients = getResources().getString(R.string.BagelWithCreamCheeseIngredients);
                             instructions = getResources().getString(R.string.BagelWithCreamCheeseInstructions);
+                            URL = getResources().getString(R.string.BagelWithCreamCheeseURL);
                             imageId = String.valueOf(R.drawable.bagel_with_cream_cheese);
                             break;
                         case "Instant Coffee":
                             ingredients = getResources().getString(R.string.InstantCoffeeIngredients);
                             instructions = getResources().getString(R.string.InstantCoffeeInstructions);
+                            URL = getResources().getString(R.string.InstantCoffeeURL);
                             imageId = String.valueOf(R.drawable.coffee);
                             break;
                     }
@@ -113,6 +123,7 @@ public class OneFragment extends Fragment {
                     intent.putExtra("ItemIngredients", ingredients);
                     intent.putExtra("ItemInstructions", instructions);
                     intent.putExtra("ItemImage", imageId);
+                    intent.putExtra("ItemURL", URL);
 
                     startActivity(intent);
             }

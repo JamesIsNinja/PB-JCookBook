@@ -15,30 +15,39 @@
 
     <string name="HamSandwichIngredients">Ham\nMayonnaise\nLettuce\nTomato\nDill Pickles\nCheddar Cheese\nBread</string>
     <string name="HamSandwichInstructions">Spread homemade mayonnaise on a thick slice of crusty white or rye bread. Top with Bibb lettuce, sliced tomato, thick slices of leftover ham, a few dill pickle slices and sliced cheddar cheese. \n*Optional* Spread whole-grain mustard on another slice of bread, then close the sandwich.</string>
+    <string name="HamSandwichURL">https://www.youtube.com/watch?v=bjBFg6KZxr8</string>
 
     <string name="SaladIngredients">Romaine Lettuce\nCroutons\nGrated Parmesan Cheese\nCaesar Dressing</string>
     <string name="SaladInstructions">Tear lettuce into bite-size pieces to make about 20 cups (5 L); place in large bowl. Add dressing, croutons and cheese; toss to combine. Add caesar dressing and toss.</string>
+    <string name="SaladURL">https://www.youtube.com/watch?v=LoBjzA2z2Ls</string>
 
     <string name="DeliSandwichIngredients">Beef\nWater\nRoast Beef\nCheese\nBread</string>
     <string name="DeliSandwichInstructions">Preheat oven to 350 degrees Fahrenheit. Open the hoagie rolls and lay out on a baking sheet. Heat beef consomme and water in a medium saucepan over medium-high heat to make a rich beef broth. Place the roast beef in the broth and warm for 3 minutes. Arrange the meat on the hoagie rolls and top each roll with 2 slices of provolone.\n\nPreheat oven to 350 degrees Fahrenheit. Open the hoagie rolls and lay out on a baking sheet. Heat beef consomme and water in a medium saucepan over medium-high heat to make a rich beef broth. Place the roast beef in the broth and warm for 3 minutes. Arrange the meat on the hoagie rolls and top each roll with 2 slices of provolone.</string>
+    <string name="DeliSandwichURL">https://www.youtube.com/watch?v=zfaRqWik5oc</string>
 
     <string name="RoastBeefWrapsIngredients">Cheese\nCumin\nGarlic\nPepper Flakes\nTomato\nLettuce\nRoast Beef\nAvocado\n</string>
     <string name="RoastBeefWrapsInstructions">Mix the cream cheese, cumin, garlic, and chili flakes in a bowl until well blended.\n\nSpread a thin layer of the cream cheese mixture over each tortilla, dividing evenly. Place a lettuce leaf on each tortilla, and top with two roast beef slices. Sprinkle evenly with avocado, tomatoes, and cheese. Starting at one end, gently roll up each tortilla into a tight tube. Slice in half diagonally and place two pieces on 6 serving plates.</string>
+    <string name="RoastBeefWrapsURL">https://www.youtube.com/watch?v=TErgO3HrVns</string>
 
     <string name="AvocadoSaladIngredients">Tomatoes\nCucumber\nAvocados\nOlive Oil\nLemon\nCilantro\Salt\nBlack Pepper</string>
     <string name="AvocadoSaladInstructions">Place chopped tomatoes, sliced cucumber, sliced red onion, diced avocado, and chopped cilantro into a large salad bowl.\n\nDrizzle with 2 Tbsp olive oil and 2 Tbsp lemon juice. Toss gently to combine. Just before serving toss with 1 tsp sea salt and 1/8 tsp black pepper.\n\n</string>
+    <string name="AvocadoSaladURL">https://www.youtube.com/watch?v=vUBpiP9aPtg</string>
 
     <string name="ChickenSoupIngredients">Chicken\nWater\nSalt\nOnions\nCelery\nGarlic\nCarrots</string>
     <string name="ChickenSoupInstructions">Bring chicken, water, and 1 tablespoon salt to a boil in a large stockpot. Skim foam. Add onions, celery, and garlic. Reduce heat. Simmer, partially covered, for 30 minutes.\n\nRemove breast, and set aside. Add carrots. Simmer, partially covered, for 40 minutes.\n\nRemove remaining chicken; discard back and wings. Let cool slightly. Remove meat from bones, and cut into bite-size pieces.\n\n\Stir in desired amount of chicken; reserve the rest for another use. Skim fat. Season with salt.</string>
+    <string name="ChickenSoupURL">https://www.youtube.com/watch?v=0xR2cC6Tea8</string>
 
-    <string name="StewIngredients">Beef\nWegetable Oil\nWater\nRosemary\nParsley\nBlack Pepper\nPotatoes\nCarrots\nCelery\nOnion\nCornstarch</string>
+    <string name="StewIngredients">Beef\nVegetable Oil\nWater\nRosemary\nParsley\nBlack Pepper\nPotatoes\nCarrots\nCelery\nOnion\nCornstarch</string>
     <string name="StewInstructions">In a large pot or dutch oven, cook beef in oil over medium heat until brown. Dissolve bouillon in water and pour into pot. Stir in rosemary, parsley and pepper. Bring to a boil, then reduce heat, cover and simmer 1 hour.\n\nStir potatoes, carrots, celery, and onion into the pot. Dissolve cornstarch in 2 teaspoons cold water and stir into stew. Cover and simmer 1 hour more.</string>
+    <string name="StewURL">https://www.youtube.com/watch?v=wrTKGoFxkM8</string>
 
     <string name="CalzoneIngredients">Dry Yeasy\nWarm Water\nOlive Oil\nSugar\nSalt\nFlour\nCheese\nPepperoni\nMushrooms\nBasil\nEgg</string>
     <string name="CalzoneInstructions">To Make Dough: In a small bowl, dissolve yeast in water. Add the oil, sugar and salt; mix in 1 cup of the flour until smooth. Gradually stir in the rest of the flour, until dough is smooth and workable. Knead dough on a lightly floured surface for about 5 minutes, or until it is elastic. Lay dough in a bowl containing 1 teaspoon olive oil, then flip the dough, cover and let rise for 40 minutes, or until almost doubled\n\nTo Make Filling: While dough is rising, combine the ricotta cheese, Cheddar cheese, pepperoni, mushrooms and basil leaves in a large bowl. Mix well, cover bowl and refrigerate to chill.\n\n\Preheat oven to 375 degrees F (190 degrees C).\n\nWhen dough is ready, punch it down and separate it into 2 equal parts. Roll parts out into thin circles on a lightly floured surface. Fill each circle with 1/2 of the cheese/meat filling and fold over, securing edges by folding in and pressing with a fork. Brush the top of each calzone with egg and place on a lightly greased cookie sheet.\n\nBake at 375 degrees F (190 degrees C) for 30 minutes. Serve hot.</string>
+    <string name="CalzoneURL">https://www.youtube.com/watch?v=wb3TFBwB1CE</string>
 
     <string name="CrispyChickenWrapIngredients">Chicken\nEgg\nPanko Crumbs\nSalt\nPepper\nGarlic Powder\nCorn Oil\nBacon\nLettuce\nRed Grapes\nCheese\nOnions\nAlomonds\nTomato</string>
     <string name="CrispyChickenWrapInstructions">Pound chicken breasts, one at a time in a resealable freezer bag, until about 1/2-inch thick. Lightly beat egg in a shallow bowl. Combine panko crumbs, salt, pepper, garlic powder and onion powder in a separate shallow bowl. Dip chicken breasts in egg until coated, drip off excess, and dip in panko mixture. Press chicken into crumbs until fully coated. Heat oil in a large skillet on medium high heat. Transfer chicken to pan and cook about 2 to 3 minutes per side or until chicken is brown, crispy and fully cooked. Transfer to a plate and cut into strips.</string>
+    <string name="CrispyChickenWrapURL">https://www.youtube.com/watch?v=LXbhGsvIH70</string>
 
 
 
