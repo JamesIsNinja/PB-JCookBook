@@ -29,7 +29,7 @@ public class TwoFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-        Bundle savedInstanceState) {
+                             Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_two, container, false);
         myListView2 = (ListView) rootView.findViewById(R.id.myListView2);
         strListView = getResources().getStringArray(R.array.Lunch_list);
@@ -38,7 +38,7 @@ public class TwoFragment extends Fragment {
 
         myListView2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Object item = (Object) myListView2.getItemAtPosition(position);
                 Intent intent = new Intent(getActivity(), Main2Activity.class);
 
@@ -81,21 +81,25 @@ public class TwoFragment extends Fragment {
                     case "Chicken Soup":
                         ingredients = getResources().getString(R.string.ChickenSoupIngredients);
                         instructions = getResources().getString(R.string.ChickenSoupInstructions);
+                        URL = getResources().getString(R.string.ChickenSoupURL);
                         imageId = String.valueOf(R.drawable.chicken_soup);
                         break;
                     case "Stew":
                         ingredients = getResources().getString(R.string.StewIngredients);
                         instructions = getResources().getString(R.string.StewInstructions);
+                        URL = getResources().getString(R.string.StewURL);
                         imageId = String.valueOf(R.drawable.stew);
                         break;
                     case "Calzone":
                         ingredients = getResources().getString(R.string.CalzoneIngredients);
                         instructions = getResources().getString(R.string.CalzoneInstructions);
+                        URL = getResources().getString(R.string.CalzoneURL);
                         imageId = String.valueOf(R.drawable.calzone);
                         break;
                     case "Crispy Chicken Wrap":
                         ingredients = getResources().getString(R.string.CrispyChickenWrapIngredients);
                         instructions = getResources().getString(R.string.CrispyChickenWrapInstructions);
+                        URL = getResources().getString(R.string.CrispyChickenWrapURL);
                         imageId = String.valueOf(R.drawable.crispy_chicken_wrap);
                         break;
                 }

@@ -45,51 +45,61 @@ public class ThreeFragment extends Fragment {
                 String ingredients = "";
                 String instructions = "";
                 String imageId = "";
+                String URL = "";
 
                 switch(item.toString()) {
                     case "Fish and Chips":
                         ingredients = getResources().getString(R.string.FishAndChipsIngredients);
                         instructions = getResources().getString(R.string.FishAndChipsInstructions);
+                        URL = getResources().getString(R.string.FishAndChipsURL);
                         imageId = String.valueOf(R.drawable.fish_chips);
                         break;
                     case "Roast Beef":
                         ingredients = getResources().getString(R.string.RoastBeefIngredients);
                         instructions = getResources().getString(R.string.RoastBeefInstructions);
+                        URL = getResources().getString(R.string.RoastBeefURL);
                         imageId = String.valueOf(R.drawable.roast_beef);
                         break;
                     case "Ham Roast":
                         ingredients = getResources().getString(R.string.HamRoastIngredients);
                         instructions = getResources().getString(R.string.HamRoastInstructions);
+                        URL = getResources().getString(R.string.HamRoastURL);
                         imageId = String.valueOf(R.drawable.ham_roast);
                         break;
                     case "Burger":
-                        ingredients = getResources().getString(R.string.HamRoastIngredients);
-                        instructions = getResources().getString(R.string.HamRoastInstructions);
+                        ingredients = getResources().getString(R.string.BurgerIngredients);
+                        instructions = getResources().getString(R.string.BurgerInstructions);
+                        URL = getResources().getString(R.string.BurgerURL);
                         imageId = String.valueOf(R.drawable.burger);
                         break;
                     case "Pasta":
                         ingredients = getResources().getString(R.string.PastaIngredients);
                         instructions = getResources().getString(R.string.PastaInstructions);
+                        URL = getResources().getString(R.string.PastaURL);
                         imageId = String.valueOf(R.drawable.pasta);
                         break;
                     case "Tuna Casserole":
                         ingredients = getResources().getString(R.string.TunaCasseroleIngredients);
                         instructions = getResources().getString(R.string.TunaCasseroleInstructions);
+                        URL = getResources().getString(R.string.TunaCasseroleURL);
                         imageId = String.valueOf(R.drawable.tuna_casserole);
                         break;
                     case "Chili":
                         ingredients = getResources().getString(R.string.ChiliIngredients);
                         instructions = getResources().getString(R.string.ChiliInstructions);
+                        URL = getResources().getString(R.string.ChiliURL);
                         imageId = String.valueOf(R.drawable.chili);
                         break;
                     case "T-Bone Steak":
                         ingredients = getResources().getString(R.string.TBoneSteakIngredients);
                         instructions = getResources().getString(R.string.TBoneSteakInstructions);
+                        URL = getResources().getString(R.string.TBoneSteakURL);
                         imageId = String.valueOf(R.drawable.tbone_steak);
                         break;
                     case "Chicken Wings":
                         ingredients = getResources().getString(R.string.ChickenWingsIngredients);
                         instructions = getResources().getString(R.string.ChickenWingsInstructions);
+                        URL = getResources().getString(R.string.ChickenWingsURL);
                         imageId = String.valueOf(R.drawable.chicken_wings);
                         break;
                 }

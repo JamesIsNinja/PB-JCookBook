@@ -149,7 +149,8 @@
                         android:adjustViewBounds="true"
                         android:contentDescription="@string/youtube_link"
                         android:nestedScrollingEnabled="true"
-                        android:onClick="youtubeClicked" />
+                        android:onClick="youtubeClicked"
+                        android:scaleType="fitCenter" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

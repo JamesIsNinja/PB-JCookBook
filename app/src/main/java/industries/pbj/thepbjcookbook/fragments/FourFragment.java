@@ -44,52 +44,62 @@ public class FourFragment extends Fragment {
                 String ingredients = "";
                 String instructions = "";
                 String imageId = "";
+                String URL = "";
 
 
                 switch(item.toString()) {
                     case "PB+J Muffins":
                         ingredients = getResources().getString(R.string.PBJMuffinsIngredients);
                         instructions = getResources().getString(R.string.PBJMuffinsInstructions);
+                        URL = getResources().getString(R.string.PBJMuffinsURL);
                         imageId = String.valueOf(R.drawable.pbj_muffins);
                         break;
                     case "PB+J Smoothie":
                         ingredients = getResources().getString(R.string.PBJSmoothieIngredients);
                         instructions = getResources().getString(R.string.PBJSmoothieInstructions);
+                        URL = getResources().getString(R.string.PBJSmoothieURL);
                         imageId = String.valueOf(R.drawable.pbj_smoothie);
                         break;
                     case "PB+J Donuts":
                         ingredients = getResources().getString(R.string.PBJDonutsIngredients);
                         instructions = getResources().getString(R.string.PBJDonutsInstructions);
+                        URL = getResources().getString(R.string.PBJDonutsURL);
                         imageId = String.valueOf(R.drawable.pbj_donuts);
                         break;
                     case "PB+J Overnight Oats":
                         ingredients = getResources().getString(R.string.PBJOvernightOatsIngredients);
                         instructions = getResources().getString(R.string.PBJOvernightOatsInstructions);
+                        URL = getResources().getString(R.string.PBJOvernightOatsURL);
                         imageId = String.valueOf(R.drawable.pbj_overnigh_oats);
                         break;
                     case "PB+J Granola":
                         ingredients = getResources().getString(R.string.PBJGranolaIngredients);
                         instructions = getResources().getString(R.string.PBJGranolaInstructions);
+                        URL = getResources().getString(R.string.PBJGranolaURL);
                         imageId = String.valueOf(R.drawable.pbj_granola);
                         break;
                     case "PB+J Sandwich":
                         ingredients = getResources().getString(R.string.PBJSandwichIngredients);
                         instructions = getResources().getString(R.string.PBJSandwichInstructions);
+                        URL = getResources().getString(R.string.PBJSandwichURL);
                         imageId = String.valueOf(R.drawable.pbj_sandwich);
                         break;
                     case "PB+J Cups":
                         ingredients = getResources().getString(R.string.PBJCupsIngredients);
                         instructions = getResources().getString(R.string.PBJCupsInstructions);
+                        URL = getResources().getString(R.string.PBJCupsURL);
                         imageId = String.valueOf(R.drawable.pbj_cups);
                         break;
                     case "PB+J Waffle-Grilled Sandwich":
                         ingredients = getResources().getString(R.string.PBJWaffleGrilledSandwichIngredients);
                         instructions = getResources().getString(R.string.PBJWaffleGrilledSandwichInstructions);
+                        URL = getResources().getString(R.string.PBJWaffleGrilledSandwichURL);
                         imageId = String.valueOf(R.drawable.pbj_waffle_grilled_sandwich);
                         break;
                     case "PB+J Ice Cream Sandwiches":
                         ingredients = getResources().getString(R.string.PBJIceCreamSandwichesIngredients);
                         instructions = getResources().getString(R.string.PBJIceCreamSandwichesInstructions);
+                        URL = getResources().getString(R.string.PBJIceCreamSandwichesURL);
                         imageId = String.valueOf(R.drawable.pbj_ice_cream_sandwiches);
                         break;
                 }
