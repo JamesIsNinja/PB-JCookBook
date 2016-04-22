@@ -136,6 +136,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" >
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tap_youtube_image_below_for_video_instrutions"
+                    android:id="@+id/textView2"
+                    android:textAlignment="center" />
+
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
@@ -151,8 +158,11 @@
                         android:nestedScrollingEnabled="true"
                         android:onClick="youtubeClicked"
                         android:scaleType="fitCenter" />
+
                 </LinearLayout>
+
             </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
     </ScrollView>

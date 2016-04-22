@@ -11,4 +11,5 @@
     <string name="industries_LauchScreen">Industries</string>
     <string name="itemimage">itemImage</string>
     <string name="youtube_link">YouTube Link</string>
+    <string name="tap_youtube_image_below_for_video_instrutions">Tap YouTube Image Below for Video Instrutions</string>
 </resources>
